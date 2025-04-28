@@ -8,12 +8,12 @@ import Products from './pages/Products';
 import About from './pages/About';
 import ProductDetails from './components/ProductDetails';
 import Cart from './components/Cart';
-import CheckOut from './components/CheckOut';
 import NotFound from './components/NotFount';
 
 import { CartProvider } from './components/CartContext';
 import Register from './components/Register';
 import Account from './components/Account';
+import Checkout from './components/Checkout';
 
 const routes = createBrowserRouter([
   {
@@ -26,7 +26,7 @@ const routes = createBrowserRouter([
       { path: 'product/:id', element: <ProductDetails /> },
       { path: 'contact', element: <Contact /> },
       { path: 'cart', element: <Cart /> },
-      { path: 'checkout', element: <CheckOut /> },
+      { path: 'checkout', element: <Checkout /> },
       { path: 'register' , element: <Register/>},
       { path: 'account' , element: <Account/>},
       { path: '*', element: <NotFound /> }

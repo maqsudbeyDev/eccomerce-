@@ -10,7 +10,6 @@ const Checkout = () => {
 
   const handlePlaceOrder = (e) => {
     e.preventDefault();
-    // TODO: coupon validatsiyasi, backend endpoint chaqirish va hokazo
     alert("Buyurtmangiz qabul qilindi! 🙌");
   };
 
