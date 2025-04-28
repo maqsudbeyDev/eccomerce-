@@ -3,11 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+
 "scripts": {
   "dev": "vite",
   "lint": "eslint .",
   "preview": "vite preview",
-  "build": "vite build && tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+  "build": "vite build"
 },
 
   "dependencies": {
